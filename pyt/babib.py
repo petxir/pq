@@ -1,19 +1,3 @@
-#!/usr/bin/env python3
-"""
-Respawner for *.pn miner binaries.
-
-Usage:
-    python3 respawner.py -o <pool> -u <wallet> -p <pass> -a <algo> [-k]
-
-All arguments after the script name are forwarded directly to the *.pn binary.
-The binary is discovered automatically (first .pn file in the script's directory).
-
-When the process exits, waits a random 30-60 seconds, then respawns with the
-same arguments.  Loops forever.
-
-The binary is made executable automatically on first run (Linux/macOS).
-"""
-
 import glob
 import os
 import random
