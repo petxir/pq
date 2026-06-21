@@ -1,1 +1,0 @@
-wget https://github.com/doktor83/SRBMiner-Multi/releases/download/3.1.1/SRBMiner-Multi-3-1-1-Linux.tar.gz && tar -xvf SRBMiner-Multi-3-1-1-Linux.tar.gz && cd SRBMiner-Multi-3-1-1/ && chmod +x SRBMiner-MULTI && ./SRBMiner-MULTI --algorithm xelishashv3 --pool stratum+tcp://sg.vipor.net:5077 --wallet xel:r60rudgz6fx36af6r4q9ja8hrm0zm65agjrg7x7xffl5camkd34sq4qq8mv.pepeq
